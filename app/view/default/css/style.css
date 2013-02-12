@@ -1,0 +1,263 @@
+/**
+***************************************************************************************************
+ * @Software    AjaxMint Gallery
+ * @Author      Rajapandian - arajapandi@gmail.com
+ * @Copyright	Copyright (c) 2010-2011. All Rights Reserved.
+ * @License		GNU GENERAL PUBLIC LICENSE
+ **************************************************************************************************
+ This source code is licensed under the terms of the GNU GENERAL PUBLIC LICENSE
+ http://www.gnu.org/licenses/gpl.html
+ **************************************************************************************************
+ Copyright (c) 2010-2011 http://ajaxmint.com. All Rights Reserved.
+ **************************************************************************************************
+**/
+
+body {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	color:#474848;
+	margin:0;
+	width:100%;	
+	position: relative;	
+	padding:0;
+}
+img {
+	border:0px;
+}
+a {
+	color:#0066cb;
+	text-decoration:none;
+}
+a:hover {
+	color:#474848;
+	text-decoration:underline;
+}
+a img {
+	border:0px;
+}
+
+#header {
+	padding:0;
+	margin:0;
+	text-align:left;
+
+}
+.page  {
+	margin:0;
+	padding:0px;
+	text-align:left;
+	width:980px;		
+
+}
+header {
+	padding-right:10px;
+}
+#content {
+	width:100%;
+	padding-left:5px;
+	padding-top:10px;
+	margin:0;
+	overflow:hidden;
+}
+.pictext {
+	padding-top:5px;	
+    margin:0;
+}
+.break {
+	clear:both;
+	padding:0;
+	margin:0 0 10px 0;
+}
+li.buttons { float: left;} 
+.floatright { float: right;} 
+.floatleft { float: left;} 
+
+.alignleft {
+	text-align:left;
+}
+
+ul.menu {
+   list-style-type: none;
+   font-family:Verdana, Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   padding: 5px;
+   margin: 0px;
+   }
+
+.menu a {
+     margin: 0px;
+     height: 20px;
+     padding: 0px 0px 0px 0px;
+     float: left;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     color: #000;
+     background: #ccc;
+     }
+
+.menu a:hover {
+     background: #dddddd;
+     }
+
+.stepArrow {
+    position:inherit;
+    display:inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menuOn {
+     background: #FF6600 !important;
+	 color: #ffffff !important;
+     }
+
+.clear {
+	clear:both;
+	padding:0;
+	height:5px;	
+	margin:0;
+}
+#container {
+    padding-left:15px;
+    margin:0px;
+}
+.gallerybox {
+	width:300px;
+}
+.albumbox {
+	width:300px;
+}	
+.picturebox {
+	width:220px;
+}	
+.albumbox, .picturebox, .gallerybox, .item {
+	padding:5px 5px 0px 5px;
+	float:left;
+	margin:0 8px 10px 0;
+	background:#ffffff;
+	border:1px solid #e5e5e5;
+    -moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	
+}
+.albumbox h2, .picturebox h2, .gallerybox h2, .item h2 {
+	font-size:1em;
+	margin:0 0 3px 0;
+	padding:0;
+}
+.albumbox h2 a, .picturebox h2 a, .gallerybox h2 a, .item h2 a {
+	color: blue;
+/*#BC806B;*/
+	text-decoration:none;
+	font-weight:bold;
+}
+.albumbox p, .picturebox p, .gallerybox p, .item p {
+	margin:0 0 0 0;
+}
+
+.albumbox h2 a:hover, .picturebox h2 a:hover, .gallerybox h2 a:hover, .item h2 a:hover {
+	color: grey;
+/*#BC806B; */
+	text-decoration:none;
+}
+
+.itemhover {
+	padding:5px 5px 0px 5px;
+	float:left;
+	margin:0 8px 10px 0;
+	background:#fffba6;	
+	border:1px solid #e5e5e5;
+    -moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;	
+	
+}
+.itemhover h2 {
+	font-size:1em;
+	margin:0 0 3px 0;
+	padding:0;
+}
+.itemhover h2 a {
+	color: grey;
+/*#BC806B;*/
+	text-decoration:none;
+}
+.itemhover h2 a:hover {
+	color: grey;
+/*#BC806B;*/
+	text-decoration:none;
+}
+.itemhover p {
+	margin:0 0 0 0;
+}
+
+
+
+#header {
+	padding-left:5px;
+	margin:0px;
+
+}
+div.navigation{
+/*	border: 1px solid #bbb;*/
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom:10px;
+	padding: 4px 5px;
+	height:20px;
+	font-size:15px;
+	vertical-align:middle;
+	color:#000000;
+	text-decoration: none;
+}
+div.navigation a{
+	color: blue;
+/*#BC806B;*/
+	text-decoration: none;
+}
+
+div.footer{
+	border: 1px solid #bbb;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom:10px;
+	margin-left:4px;
+	padding:4px 5px;
+	height:10px;
+	font-size:9px;
+	vertical-align:middle;
+	color:#000000;
+	text-decoration: none;
+}
+div.footer a{
+	color: grey;
+/*#BC806B;*/
+	text-decoration: none;
+}
+
+.results {
+	float:right;
+}
+div.paging .active {
+	color:#FF0000;
+}
+div.paging a, .pagelink {
+	border: 1px solid #bbb;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 1px 5px;
+	margin: 0 4px;
+	color: grey; 
+/*#BC806B;*/
+	float:left;	
+	text-decoration: none;
+}
+
